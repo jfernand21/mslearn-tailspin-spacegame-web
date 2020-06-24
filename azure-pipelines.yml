@@ -1,5 +1,8 @@
 trigger:
   - '*'
+  paths:
+    exclude:
+    - docs/*  # exclude the docs folder
   
 pool:
   vmImage: 'ubuntu-18.04'
